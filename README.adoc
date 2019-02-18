@@ -5,7 +5,9 @@
 2. 导入STS中并构建完成后，找到InitializrService这个启动类，右键run Application
 
 3.如果能运行就可以执行maven install命令了 ,执行命令时可能报错并提示执行spring-javaformat:apply命令，执行此命令后再执行install命令。
+
 4.从initializr-service工程中target文件下拷贝initializr-service.jar，运行此jar包。
+
 例如：拷贝到D盘根目录时执行命令：
 java -jar initializr-service.jar --server.port=8080
 启动成功后浏览器中输入localhost：8080验证。
