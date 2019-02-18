@@ -2,7 +2,7 @@
 
 下载Releases版本，这里下载了initializr-0.6.0.RELEASE 版本并修改了工程总pom.xml以及services中pom.xml错误。
 
-2. 导入STS中并构建完成后，找到InitializrService这个启动类，右键run Application
+2.导入STS中并构建完成后，找到InitializrService这个启动类，右键run Application
 
 3.如果能运行就可以执行maven install命令了 ,执行命令时可能报错并提示执行spring-javaformat:apply命令，执行此命令后再执行install命令。
 
